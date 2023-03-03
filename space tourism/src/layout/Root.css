@@ -1,0 +1,12 @@
+.app{
+    background-image: url(../assets/home/background-home-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 100%; 
+}
+@media (min-width: 420px) and (max-width: 820px){
+    .app{
+        background-image: url(../assets/home/background-home-tablet.jpg);
+        min-height: 100vh;
+    }
+}
