@@ -7,6 +7,7 @@ const Navbar = () => {
     return(
         <nav>
             <Link to='/'><img src={logo} alt="logo" /></Link>
+            <div className="line"></div>
             <ul className={`links ${isOpen? "showing":null}`}>
                 <li><NavLink to='/'><span>00</span> HOME</NavLink></li>
                 <li><NavLink to='destination'><span>01</span> DESTINATION</NavLink></li>
