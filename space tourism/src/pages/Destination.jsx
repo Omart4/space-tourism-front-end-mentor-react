@@ -17,15 +17,15 @@ const Destination = () => {
             <div className="planet">
                 <div className="planet-image">
                     {destinations.map(n=>(
-                        <img className={`planet-photo ${planet.toLowerCase()==n.name.toLowerCase()?"c-p-planet":null}`} src={n.images.png} alt="" />
+                        <img className={`planet-photo ${planet.toLowerCase()==n.name.toLowerCase()?"c-p-planet":''}`} src={n.images.png} alt="" />
                     ))}
                 </div>
                 <div className='planet-text'>
                     <div className='planet-links'>
-                        <p className={`planet-link ${planet=="Moon"?"p-active":null}`} onClick={(e)=>{getPlanet(e)}} id="Moon">MOON</p>
-                        <p className={`planet-link ${planet=="Mars"?"p-active":null}`} onClick={(e)=>{getPlanet(e)}} id="Mars">MARS</p>
-                        <p className={`planet-link ${planet=="Europa"?"p-active":null}`} onClick={(e)=>{getPlanet(e)}} id='Europa'>EUROPA</p>
-                        <p className={`planet-link ${planet=="Titan"?"p-active":null}`} onClick={(e)=>{getPlanet(e)}} id="Titan">TITAN</p>
+                        <p className={`planet-link ${planet=="Moon"?"p-active":''}`} onClick={(e)=>{getPlanet(e)}} id="Moon">MOON</p>
+                        <p className={`planet-link ${planet=="Mars"?"p-active":''}`} onClick={(e)=>{getPlanet(e)}} id="Mars">MARS</p>
+                        <p className={`planet-link ${planet=="Europa"?"p-active":''}`} onClick={(e)=>{getPlanet(e)}} id='Europa'>EUROPA</p>
+                        <p className={`planet-link ${planet=="Titan"?"p-active":''}`} onClick={(e)=>{getPlanet(e)}} id="Titan">TITAN</p>
                     </div>
                     {
                         destinations.map(m=>(
