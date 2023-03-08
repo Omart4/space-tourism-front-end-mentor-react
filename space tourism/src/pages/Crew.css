@@ -1,0 +1,123 @@
+.crew-container h3{
+    text-align: center;
+}
+.crew-container h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.6rem;
+    color: white;
+}
+.crew-container h3 span{
+    color: rgba(255, 255, 255, 0.25);
+    margin-right: 1.5rem;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff2d;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+.dot.active-dot{
+    background-color: white;
+}
+.dot:hover{
+    background-color: rgba(255, 255, 255, 0.418);
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+.member-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.418);
+    width: 90%;
+    height:16rem
+}
+.member-image img{
+    width: 60%;
+}
+.member-photo{
+    display: none;
+}
+.member-photo.c-c-member{
+    display: block;
+}
+.member-text{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.member-links{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.member-details{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.member-details h4{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+.member-details h1{
+    font-size: 2.5rem;
+    margin: .1rem 0;
+}
+.member-details p{
+    font-size: 1.2rem;
+}
+.member-details.c-member{
+    display: flex;
+}
+@media (min-width: 420px) and (max-width: 820px){
+    .crew-container h3{
+        text-align: left;
+        padding: 0 2rem;
+        display: flex;
+    }
+    .crew-container h3 span{
+        display: block;
+    }
+    .member{
+        flex-direction: column-reverse;
+        padding: 0;
+        height: 53rem;
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+        justify-content: space-between;
+    }
+    .member-image{
+        border: none;
+        margin-top: 8rem;
+        width: 80%;
+    }
+    .member-text{
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+    .member-links{
+        margin-top: 2rem;
+        width: 40%;
+    }
+    .member-details{
+        width: 80%;
+    }
+    .member-details h1{
+        font-size: 3.3rem;
+    }
+    .member-details h4{
+        font-size: 2rem;
+    }
+}

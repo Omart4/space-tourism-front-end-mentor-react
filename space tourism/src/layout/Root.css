@@ -2,7 +2,8 @@
     background-image: url(../assets/home/background-home-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;  
-    height: 100%; 
+    min-height: 113vh;
+    height: auto;
 }
 .app.destination{
     background-image: url(../assets/destination/background-destination-mobile.jpg);
@@ -30,6 +31,9 @@
     .app.destination{
         background-image: url(../assets/destination/background-destination-tablet.jpg);
     }
+    .app.crew{
+        background-image:url(../assets/crew/background-crew-tablet.jpg) ;
+    }
 }
 @media (min-width:821px) {
     .app{
@@ -39,5 +43,8 @@
     }
     .app.destination{
         background-image: url(../assets/destination/background-destination-desktop.jpg);
+    }
+    .app.crew{
+        background-image: url(../assets/crew/background-crew-desktop.jpg);
     }
 }
