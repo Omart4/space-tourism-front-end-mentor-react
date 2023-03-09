@@ -121,3 +121,45 @@
         font-size: 2rem;
     }
 }
+@media (min-width:821px){
+    .crew-container h3{
+        text-align: left;
+        padding: 2rem 5rem 0 5rem;
+        display: flex;
+        margin: 0;
+    }
+    .member{
+        flex-direction: row-reverse;
+        height: 30rem;
+        padding: 1rem 6rem;
+    }
+    .member-text{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .member-links{
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+    .member-image{
+        display: flex;
+        border:none;
+        height: 100%;
+        aspect-ratio: 4/3;
+    }
+    .member-image img{
+        max-height: 100%;
+    }
+    .member-details{
+        text-align: left;
+        align-items:flex-start ;
+        margin-bottom: 4rem;
+    }
+    .member-details h1{
+        font-size: 4.5rem;
+    }
+    .member-details h4{
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+    }
+}
