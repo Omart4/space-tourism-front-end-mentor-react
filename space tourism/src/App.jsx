@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {createBrowserRouter,createRoutesFromElements,Route,RouterProvider} from 'react-router-dom'
+import {createBrowserRouter,createRoutesFromElements,Route,RouterProvider,createHashRouter} from 'react-router-dom'
 //Layout
 import RootLayout from './layout/RootLayout'
 
@@ -9,7 +9,7 @@ import Destination from './pages/Destination'
 import Home from './pages/Home'
 import Tech from './pages/Tech'
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path='/' element={<RootLayout/>}>
       <Route index element={<Home/>}/>
