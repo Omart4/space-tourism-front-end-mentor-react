@@ -131,11 +131,13 @@
     .member{
         flex-direction: row-reverse;
         height: 30rem;
-        padding: 1rem 6rem;
+        padding: 1rem 5.7rem;
     }
     .member-text{
         flex-direction: column-reverse;
         align-items: flex-start;
+        width: 50%;
+        gap: 3rem;
     }
     .member-links{
         justify-content: flex-start;
@@ -144,6 +146,7 @@
     .member-image{
         display: flex;
         border:none;
+        width: 50%;
         height: 100%;
         aspect-ratio: 4/3;
     }
@@ -153,7 +156,6 @@
     .member-details{
         text-align: left;
         align-items:flex-start ;
-        margin-bottom: 4rem;
     }
     .member-details h1{
         font-size: 4.5rem;

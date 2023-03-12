@@ -34,6 +34,9 @@
     .app.crew{
         background-image:url(../assets/crew/background-crew-tablet.jpg) ;
     }
+    .app.technology{
+        background-image:url(../assets/technology/background-technology-tablet.jpg) ;
+    }
 }
 @media (min-width:821px) {
     .app{
@@ -46,5 +49,8 @@
     }
     .app.crew{
         background-image: url(../assets/crew/background-crew-desktop.jpg);
+    }
+    .app.technology{
+        background-image: url(../assets/technology/background-technology-desktop.jpg);
     }
 }
