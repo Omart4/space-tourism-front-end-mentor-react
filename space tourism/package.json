@@ -2,7 +2,7 @@
   "name": "space-tourism",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://Omart4.github.io/space-tourism-front-end-mentor-react",
+  "homepage": "https://Omart4.github.io/space-tourism-front-end-mentor-react",
   "type": "module",
   "scripts": {
     "dev": "vite",
